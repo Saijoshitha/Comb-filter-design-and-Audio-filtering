@@ -1,0 +1,2 @@
+# Comb-filter-design-and-Audio-filtering
+Record separately the AC noise v(n) and your speech s(n) at 16 kHz and 16-bit maximum. Then add both the signals to get x(n) = s(n)+v(n). Plot the PSD of signals x(n), s(n), and v(n) using pwelch or periodogram. Design a comb filter to produce the filtered output y(n) to get rid of the AC noise from x(n). Implement the filter using both MATLAB/python and STM32. Then compare the PSD of y(n), x(n), and s(n). Also, compare the PSD of filtered outputs from MATLAB/python and STM32.
